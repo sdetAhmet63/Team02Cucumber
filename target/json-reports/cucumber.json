@@ -1,0 +1,598 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-25T15:48:28.251Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "TestCase08 kullanici wikipediada arama yapar",
+        "description": "",
+        "id": "wikipedia-arama;testcase08-kullanici-wikipediada-arama-yapar;farkli-dillerde-at;2",
+        "after": [
+          {
+            "result": {
+              "duration": 5720000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6690000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici wikipedia \"https://www.wikipedia.org\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.wikipedia.org\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.WikipediaStepDefinitions.kullanici_wikipedia_sayfasina_gider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 111000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici wikipedia dropdownda dil \"English\" secer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"English\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepdefinitions.WikipediaStepDefinitions.kullanici_wikipedia_dropdownda_dil_secer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2554000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici farkli dillerde \"horse\" arar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"horse\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.WikipediaStepDefinitions.kullanici_farkli_dillerde_arar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 122000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici sayfa basligini yazdirir",
+            "match": {
+              "location": "stepdefinitions.WikipediaStepDefinitions.kullanici_sayfa_basligini_yazdirir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 633000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "kullanici wikipedia sayfasini kapatir",
+            "match": {
+              "location": "stepdefinitions.WikipediaStepDefinitions.kullanici_wikipedia_sayfasini_kapatir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wikipediaArama"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-25T15:48:44.161Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "TestCase08 kullanici wikipediada arama yapar",
+        "description": "",
+        "id": "wikipedia-arama;testcase08-kullanici-wikipediada-arama-yapar;farkli-dillerde-at;3",
+        "after": [
+          {
+            "result": {
+              "duration": 5578000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 652000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici wikipedia \"https://www.wikipedia.org\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.wikipedia.org\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.WikipediaStepDefinitions.kullanici_wikipedia_sayfasina_gider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 132000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici wikipedia dropdownda dil \"Cymraeg\" secer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cymraeg\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepdefinitions.WikipediaStepDefinitions.kullanici_wikipedia_dropdownda_dil_secer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2335000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici farkli dillerde \"ceffyl\" arar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ceffyl\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.WikipediaStepDefinitions.kullanici_farkli_dillerde_arar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici sayfa basligini yazdirir",
+            "match": {
+              "location": "stepdefinitions.WikipediaStepDefinitions.kullanici_sayfa_basligini_yazdirir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 616000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "kullanici wikipedia sayfasini kapatir",
+            "match": {
+              "location": "stepdefinitions.WikipediaStepDefinitions.kullanici_wikipedia_sayfasini_kapatir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wikipediaArama"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-25T15:48:53.490Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "TestCase08 kullanici wikipediada arama yapar",
+        "description": "",
+        "id": "wikipedia-arama;testcase08-kullanici-wikipediada-arama-yapar;farkli-dillerde-at;4",
+        "after": [
+          {
+            "result": {
+              "duration": 5484000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 626000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici wikipedia \"https://www.wikipedia.org\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.wikipedia.org\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.WikipediaStepDefinitions.kullanici_wikipedia_sayfasina_gider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 97000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici wikipedia dropdownda dil \"Deutsch\" secer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Deutsch\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepdefinitions.WikipediaStepDefinitions.kullanici_wikipedia_dropdownda_dil_secer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1430000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici farkli dillerde \"pferde\" arar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pferde\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.WikipediaStepDefinitions.kullanici_farkli_dillerde_arar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 118000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici sayfa basligini yazdirir",
+            "match": {
+              "location": "stepdefinitions.WikipediaStepDefinitions.kullanici_sayfa_basligini_yazdirir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 598000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "kullanici wikipedia sayfasini kapatir",
+            "match": {
+              "location": "stepdefinitions.WikipediaStepDefinitions.kullanici_wikipedia_sayfasini_kapatir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wikipediaArama"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-25T15:49:01.844Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "TestCase08 kullanici wikipediada arama yapar",
+        "description": "",
+        "id": "wikipedia-arama;testcase08-kullanici-wikipediada-arama-yapar;farkli-dillerde-at;5",
+        "after": [
+          {
+            "result": {
+              "duration": 5570000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 442000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici wikipedia \"https://www.wikipedia.org\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.wikipedia.org\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.WikipediaStepDefinitions.kullanici_wikipedia_sayfasina_gider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 112000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici wikipedia dropdownda dil \"Italiano\" secer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Italiano\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepdefinitions.WikipediaStepDefinitions.kullanici_wikipedia_dropdownda_dil_secer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1342000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici farkli dillerde \"cavallo\" arar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cavallo\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.WikipediaStepDefinitions.kullanici_farkli_dillerde_arar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici sayfa basligini yazdirir",
+            "match": {
+              "location": "stepdefinitions.WikipediaStepDefinitions.kullanici_sayfa_basligini_yazdirir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 598000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "kullanici wikipedia sayfasini kapatir",
+            "match": {
+              "location": "stepdefinitions.WikipediaStepDefinitions.kullanici_wikipedia_sayfasini_kapatir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wikipediaArama"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-25T15:49:09.929Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "TestCase08 kullanici wikipediada arama yapar",
+        "description": "",
+        "id": "wikipedia-arama;testcase08-kullanici-wikipediada-arama-yapar;farkli-dillerde-at;6",
+        "after": [
+          {
+            "result": {
+              "duration": 5573000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 606000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici wikipedia \"https://www.wikipedia.org\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.wikipedia.org\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.WikipediaStepDefinitions.kullanici_wikipedia_sayfasina_gider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 104000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici wikipedia dropdownda dil \"Hrvatski\" secer",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hrvatski\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepdefinitions.WikipediaStepDefinitions.kullanici_wikipedia_dropdownda_dil_secer(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1351000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici farkli dillerde \"konj\" arar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"konj\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinitions.WikipediaStepDefinitions.kullanici_farkli_dillerde_arar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici sayfa basligini yazdirir",
+            "match": {
+              "location": "stepdefinitions.WikipediaStepDefinitions.kullanici_sayfa_basligini_yazdirir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 760000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "kullanici wikipedia sayfasini kapatir",
+            "match": {
+              "location": "stepdefinitions.WikipediaStepDefinitions.kullanici_wikipedia_sayfasini_kapatir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wikipediaArama"
+          }
+        ]
+      }
+    ],
+    "name": "Wikipedia Arama",
+    "description": "",
+    "id": "wikipedia-arama",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/wikipediaArama.feature",
+    "tags": [
+      {
+        "name": "@wikipediaArama",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

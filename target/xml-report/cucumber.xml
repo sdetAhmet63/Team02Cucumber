@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="50.349">
+<testcase classname="Wikipedia Arama" name="TestCase08 kullanici wikipediada arama yapar" time="15.896">
+<system-out><![CDATA[Given kullanici wikipedia "https://www.wikipedia.org" sayfasina gider.......passed
+And kullanici wikipedia dropdownda dil "English" secer......................passed
+And kullanici farkli dillerde "horse" arar..................................passed
+And kullanici sayfa basligini yazdirir......................................passed
+Then kullanici wikipedia sayfasini kapatir..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Wikipedia Arama" name="TestCase08 kullanici wikipediada arama yapar 2" time="9.326">
+<system-out><![CDATA[Given kullanici wikipedia "https://www.wikipedia.org" sayfasina gider.......passed
+And kullanici wikipedia dropdownda dil "Cymraeg" secer......................passed
+And kullanici farkli dillerde "ceffyl" arar.................................passed
+And kullanici sayfa basligini yazdirir......................................passed
+Then kullanici wikipedia sayfasini kapatir..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Wikipedia Arama" name="TestCase08 kullanici wikipediada arama yapar 3" time="8.353">
+<system-out><![CDATA[Given kullanici wikipedia "https://www.wikipedia.org" sayfasina gider.......passed
+And kullanici wikipedia dropdownda dil "Deutsch" secer......................passed
+And kullanici farkli dillerde "pferde" arar.................................passed
+And kullanici sayfa basligini yazdirir......................................passed
+Then kullanici wikipedia sayfasini kapatir..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Wikipedia Arama" name="TestCase08 kullanici wikipediada arama yapar 4" time="8.075">
+<system-out><![CDATA[Given kullanici wikipedia "https://www.wikipedia.org" sayfasina gider.......passed
+And kullanici wikipedia dropdownda dil "Italiano" secer.....................passed
+And kullanici farkli dillerde "cavallo" arar................................passed
+And kullanici sayfa basligini yazdirir......................................passed
+Then kullanici wikipedia sayfasini kapatir..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Wikipedia Arama" name="TestCase08 kullanici wikipediada arama yapar 5" time="8.454">
+<system-out><![CDATA[Given kullanici wikipedia "https://www.wikipedia.org" sayfasina gider.......passed
+And kullanici wikipedia dropdownda dil "Hrvatski" secer.....................passed
+And kullanici farkli dillerde "konj" arar...................................passed
+And kullanici sayfa basligini yazdirir......................................passed
+Then kullanici wikipedia sayfasini kapatir..................................passed
+]]></system-out>
+</testcase>
+</testsuite>
